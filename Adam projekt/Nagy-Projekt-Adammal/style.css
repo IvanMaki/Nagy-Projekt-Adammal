@@ -46,3 +46,13 @@ footer{
     display: block;
     width: 1000px;
 }
+#tf_cim{
+    text-align: center;
+}
+.sz{
+    padding: 10px;
+    width:15%
+}
+#leiras{
+   height: 20%;
+}
