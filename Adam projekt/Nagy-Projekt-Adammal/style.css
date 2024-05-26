@@ -16,3 +16,33 @@ footer{
     padding: 10px 0;
 }
 
+.sorry {
+    background-image: url(image/emoji.jpg);
+}
+
+#bocsi {
+    display: block;
+    background-color: black;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-block: solid;
+    border-color: yellow;
+    border-radius: 3px 3px 3px;
+    color: white;
+    text-align: center;
+}
+
+.btn btn-primary {
+    background-color: red;
+}
+
+.dropdown {
+    display: block;
+    margin-left: auto; 
+}
+
+#carouselExample {
+    display: block;
+    width: 1000px;
+}
