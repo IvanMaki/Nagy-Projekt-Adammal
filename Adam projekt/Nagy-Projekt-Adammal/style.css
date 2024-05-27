@@ -62,3 +62,40 @@ display: block;
  border: 3px;
  border-color: black;
 }
+.imgheader{
+    text-align: center;
+}
+#tartalom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#balra {
+    width: 45%;
+    text-align: center;
+}
+
+#jobbra {
+    width: 45%;
+    text-align: center;
+}
+
+.vastag {
+    font-weight: bold;
+}
+
+.textbox {
+    width: 200px;
+
+}
+#uzenet{
+    width: 200px;
+    height: 200px;
+}
+#contact_cimsor{
+    text-align: center;
+    padding: 10px;
+}
+#tartalom{
+    background-color: white;
+}
