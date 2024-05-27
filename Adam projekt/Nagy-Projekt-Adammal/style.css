@@ -56,3 +56,9 @@ footer{
 #leiras{
    height: 20%;
 }
+
+#addd {
+display: block;
+ border: 3px;
+ border-color: black;
+}
