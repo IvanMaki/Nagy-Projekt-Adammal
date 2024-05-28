@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Férfi</title>
+</head> 
+<body class="hatter1">
+  <header>
+    <div class="imgheader">
+      <img src="image/logo.png" alt="logo" title="webshop">
+    </div>
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menü
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="contact.html">Elérhetőségek</a></li>
+        <li><a class="dropdown-item" href="hirdetés.html">Hirdetés feladása</a></li>
+      </ul>
+    </div>
+  </header>
+  <nav>
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active rounded-5"  id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="window.location.href='ferfi.html'">Férfi ruhák</button>
+        <!-- active tag a classbe oda amelyik oldalon a user van -->
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='no.html'">Női ruhák </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='gyerek.html'">Gyerek ruhák(fiú,lány)</button>
+      </li>
+    </ul>
+  </nav>
+     
+      
+    
+    <h1 id="contact_cimsor">Vegye fel velünk a kapcsolatot</h1>
+    <div id="tartalom">
+        <div id="balra" class="mezo">
+            <h2 class="h2kozep">Kérdőív</h2>
+            <label for="nev">Adja meg a nevét:</label><br>
+            <input class="textbox" id="nev" type="text" placeholder="Név pl.: Szabó Emánuel"><br>
+    
+            <label for="email">Adja meg az email címét:</label><br>
+            <input class="textbox" id="email" type="email" placeholder="pelda@pelda.com"><br>
+    
+            <label for="mobil">Adja meg a telefonszámát:</label><br>
+            <input class="textbox" id="mobil" type="text" placeholder="+36 11 1111111"><br>
+    
+            <label for="uzenet">Itt adja meg az üzenetet:</label><br>
+            <textarea class="textbox" id="uzenet" placeholder="... Termékkel van ... észrevételem ..."></textarea><br>
+        </div>
+        <div id="jobbra" class="mezo">
+            <h2 class="h2kozep">Elérhetőségeink</h2>
+            <p>vorosszucsivan@gmail.com</p>
+            <p>+36 22 2222222</p>
+            <br>
+            <p class="vastag">Cegléd</p>
+            <p>Kussuth Ferenc utca 32</p>
+            <br>
+            <p class="vastag">Keressen minket Bátran!</p>
+        </div>
+    </div>
+    
+    </body>

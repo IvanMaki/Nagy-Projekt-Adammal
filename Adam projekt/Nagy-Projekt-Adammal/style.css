@@ -1,0 +1,108 @@
+header img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+html, body {
+    height: 100%; 
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sorry {
+    background-image: url(image/emoji.jpg);
+}
+
+#bocsi {
+    display: block;
+    background-color: black;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-block: solid;
+    border-color: yellow;
+    border-radius: 3px 3px 3px;
+    color: white;
+    text-align: center;
+}
+
+.btn btn-primary {
+    background-color: red;
+}
+
+.dropdown {
+    display: block;
+    margin-left: auto; 
+}
+
+#carouselExample {
+    display: block;
+    width: 1000px;
+}
+#tf_cim{
+    text-align: center;
+}
+.sz{
+    padding: 10px;
+    width:15%
+}
+#leiras{
+   height: 20%;
+}
+
+#addd {
+display: block;
+ border: 3px;
+ border-color: black;
+}
+.imgheader{
+    text-align: center;
+}
+#tartalom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#balra {
+    width: 45%;
+    text-align: center;
+}
+
+#jobbra {
+    width: 45%;
+    text-align: center;
+}
+
+.vastag {
+    font-weight: bold;
+}
+
+.textbox {
+    width: 200px;
+
+}
+#uzenet{
+    width: 200px;
+    height: 200px;
+}
+#contact_cimsor{
+    text-align: center;
+    padding: 10px;
+}
+#tartalom{
+    background-color: white;
+}
+
+
+
+.hatter2{
+    background: url("image/hatter.png");
+}
+
