@@ -9,48 +9,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Férfi</title>
 </head> 
-<body>
-    <header></header>
+<body class="hatter2">
+  <header>
+    <div class="imgheader">
       <img src="image/logo.png" alt="logo" title="webshop">
-    </header>
-    <nav>
-        <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active rounded-5"  id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="window.location.href='ferfi.html'">Férfi ruhák</button>
-            <!-- active tag a classbe oda amelyik oldalon a user van -->
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='no.html'">Női ruhák </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='gyerek.html'">Gyerek ruhák(fiú,lány)</button>
-          </li>
-        </ul>
-    </nav>
-    <main>
+    </div>
 
-          <!-- divbe rakni és középre igazítani + design -->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menü
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="contact.html">Elérhetőségek</a></li>
+        <li><a class="dropdown-item" href="hirdetés.html">Hirdetés feladása</a></li>
+      </ul>
+    </div>
+  </header>
+  <nav>
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active rounded-5"  id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="window.location.href='ferfi.html'">Férfi ruhák</button>
+        <!-- active tag a classbe oda amelyik oldalon a user van -->
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='no.html'">Női ruhák </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.location.href='gyerek.html'">Gyerek ruhák(fiú,lány)</button>
+      </li>
+    </ul>
+  </nav>
+    <main class="hatter">
+
           <h1 id="tf_cim">Termék felvitele</h1>
-          <img src="image/upload image.jpg" alt="..." id="addd">
+          <p><img src="image/upload_image.jpg" alt="..." id="addd"></p>
           <button id="kep_feltolt">kép feltöltése</button><br>
           <input type="text" placeholder="Adja meg a termék nevét" id="nev" class="sz"><br> 
           <textarea id="leiras" placeholder="Rövid találó leírása a terméknek" class="sz"></textarea><br>
           <input type="text" placeholder="Termék ára Ft-ban" class="sz" id="ar">
-          
 
-
-
-          
-       <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </div>
+          <a href="https://www.youtube.com/watch?v=xWd0LIl8nkI">
+            <p>tutorial 1</p>
+          </a>
+          <a href="https://www.youtube.com/watch?v=5AI3SygRrg8">
+            <p>tutorial 2</p>
+          </a>
+          <a href="https://www.youtube.com/watch?v=oti-zjdshzk">
+            <p>tutorial 3</p>
+          </a>
     </main>
 </body>
 </html>
